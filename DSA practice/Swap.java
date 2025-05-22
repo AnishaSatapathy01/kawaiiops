@@ -3,7 +3,8 @@
         int a = 10;
         int b= 20;
         int t;
-        t=a;
+        t=a;//alternate way a=a+b; b=a-b; a=a-b;
+              
         a=b;
         b=t;
         System.out.println("a:"+a);
